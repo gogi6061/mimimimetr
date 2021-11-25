@@ -1,0 +1,16 @@
+
+<html>
+<head>
+    <title>Files Upload</title>
+</head>
+<body>
+<form action="/save" method="post" enctype="multipart/form-data" >
+    <label for="description">Description</label>
+    <input id="description" name="description" placeholder="Enter description...">
+    <br>
+    <br>
+    <input type="file" name="file" multiple>
+    <input type="submit" value="File Upload">
+</form>
+</body>
+</html>
